@@ -16,7 +16,7 @@ description:"hd view",
 image:"https://m.media-amazon.com/images/I/7147S89KqeL._AC_UF1000,1000_QL80_.jpg"
 
 }]
-  res.render('index', {products});
+  res.render('index', {products,admin:true});
 });
 
 module.exports = router;
